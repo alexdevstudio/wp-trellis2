@@ -299,7 +299,7 @@
 * Define provider as virtualbox to avoid failure
 * Don't set HSTS header over HTTP
 * Add note about generating keys from the WordPress API
-* Use site instead of 159.65.225.255
+* Use site instead of eo.com
 * Be consistent with roots-example-project repo
 * Add vagrant-hostsupdater to requirements
 * SSL support

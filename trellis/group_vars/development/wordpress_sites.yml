@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  159.65.225.255:
+  eo.com:
     site_hosts:
       - canonical: demo.com
         redirects:

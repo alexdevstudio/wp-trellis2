@@ -3,11 +3,11 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  159.65.225.255:
+  eo.com:
     site_hosts:
-      - canonical: statge.159.65.225.255
+      - canonical: statge.eo.com
         redirects:
-          - www.stage.159.65.225.255
+          - www.stage.eo.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:alexdevstudio/wp-trellis2.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo

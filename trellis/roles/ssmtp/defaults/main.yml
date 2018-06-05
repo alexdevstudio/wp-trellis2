@@ -5,11 +5,11 @@ ssmtp_start_tls: 'Yes'
 ssmtp_tls: 'Yes'
 # ssmtp_revaliases:
 #   - user: root
-#     from: from@159.65.225.255
+#     from: from@eo.com
 #     smtp_server: "{{ mail_smtp_server }}"
 #   - user: "{{ admin_user }}"
-#     from: from@159.65.225.255
+#     from: from@eo.com
 #     smtp_server: "{{ mail_smtp_server }}"
 #   - user: "{{ web_user }}"
-#     from: from@159.65.225.255
+#     from: from@eo.com
 #     smtp_server: "{{ mail_smtp_server }}"
