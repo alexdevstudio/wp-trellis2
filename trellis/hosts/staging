@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [staging]
-159.65.225.255
+replace_with_domain_or_ip
 
 [web]
-159.65.225.255
+replace_with_domain_or_ip
