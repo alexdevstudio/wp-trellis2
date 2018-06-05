@@ -1,0 +1,17 @@
+Required format for `site_hosts` (group_vars/{{ env }}/wordpress_sites.yml):
+
+159.65.225.255:
+  site_hosts:
+    - canonical: 159.65.225.255
+
+The above is the minimum required. Multiple hosts and redirects are possible:
+
+159.65.225.255:
+  site_hosts:
+    - canonical: 159.65.225.255
+      redirects:
+        - www.159.65.225.255
+        - site.com
+    - canonical: example.co.uk
+      redirects:
+        - www.example.co.uk
