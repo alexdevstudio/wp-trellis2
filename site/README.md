@@ -40,8 +40,8 @@ See a complete working example in the [roots-example-project.com repo](https://g
   * `DB_PASSWORD` - Database password
   * `DB_HOST` - Database host
   * `WP_ENV` - Set to environment (`development`, `staging`, `production`)
-  * `WP_HOME` - Full URL to WordPress home (http://eo.com)
-  * `WP_SITEURL` - Full URL to WordPress including subdirectory (http://eo.com/wp)
+  * `WP_HOME` - Full URL to WordPress home (http://amatelo.com)
+  * `WP_SITEURL` - Full URL to WordPress including subdirectory (http://amatelo.com/wp)
   * `AUTH_KEY`, `SECURE_AUTH_KEY`, `LOGGED_IN_KEY`, `NONCE_KEY`, `AUTH_SALT`, `SECURE_AUTH_SALT`, `LOGGED_IN_SALT`, `NONCE_SALT`
 
   If you want to automatically generate the security keys (assuming you have wp-cli installed locally) you can use the very handy [wp-cli-dotenv-command][wp-cli-dotenv]:
@@ -56,7 +56,7 @@ See a complete working example in the [roots-example-project.com repo](https://g
 
 4. Set your site vhost document root to `/path/to/site/web/` (`/path/to/site/current/web/` if using deploys)
 
-5. Access WP admin at `http://eo.com/wp/wp-admin`
+5. Access WP admin at `http://amatelo.com/wp/wp-admin`
 
 ## Deploys
 

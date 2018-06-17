@@ -1,6 +1,6 @@
 # Documentation: https://roots.io/trellis/docs/mail/
-mail_smtp_server: smtp.eo.com:587
-mail_admin: admin@eo.com
-mail_hostname: eo.com
+mail_smtp_server: smtp.amatelo.com:587
+mail_admin: admin@amatelo.com
+mail_hostname: amatelo.com
 mail_user: smtp_user
 mail_password: "{{ vault_mail_password }}" # Define this variable in group_vars/all/vault.yml

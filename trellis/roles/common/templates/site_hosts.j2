@@ -1,16 +1,16 @@
 Required format for `site_hosts` (group_vars/{{ env }}/wordpress_sites.yml):
 
-eo.com:
+amatelo.com:
   site_hosts:
-    - canonical: eo.com
+    - canonical: amatelo.com
 
 The above is the minimum required. Multiple hosts and redirects are possible:
 
-eo.com:
+amatelo.com:
   site_hosts:
-    - canonical: eo.com
+    - canonical: amatelo.com
       redirects:
-        - www.eo.com
+        - www.amatelo.com
         - site.com
     - canonical: example.co.uk
       redirects:

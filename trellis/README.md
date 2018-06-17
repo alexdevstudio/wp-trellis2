@@ -43,7 +43,7 @@ Make sure all dependencies have been installed before moving on:
 The recommended directory structure for a Trellis project looks like:
 
 ```shell
-eo.com/      # → Root folder for the project
+amatelo.com/      # → Root folder for the project
 ├── trellis/      # → Your clone of this repository
 └── site/         # → A Bedrock-based WordPress site
     └── web/
@@ -53,7 +53,7 @@ eo.com/      # → Root folder for the project
 
 See a complete working example in the [roots-example-project.com repo](https://github.com/roots/roots-example-project.com).
 
-1. Create a new project directory: `$ mkdir eo.com && cd eo.com`
+1. Create a new project directory: `$ mkdir amatelo.com && cd amatelo.com`
 2. Clone Trellis: `$ git clone --depth=1 git@github.com:roots/trellis.git && rm -rf trellis/.git`
 3. Clone Bedrock: `$ git clone --depth=1 git@github.com:roots/bedrock.git site && rm -rf site/.git`
 
