@@ -5,7 +5,7 @@
 wordpress_sites:
   amatelo.com:
     site_hosts:
-      - canonical: statge.amatelo.com
+      - canonical: stage.amatelo.com
         redirects:
           - www.stage.amatelo.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
