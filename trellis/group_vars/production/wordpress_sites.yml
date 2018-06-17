@@ -5,9 +5,9 @@
 wordpress_sites:
   amatelo.com:
     site_hosts:
-      - canonical: stage.amatelo.com
+      - canonical: amatelo.com
         redirects:
-          - www.stage.amatelo.com
+          - www.amatelo.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:alexdevstudio/wp-trellis2.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
@@ -15,7 +15,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: true
+      enabled: false
       provider: letsencrypt
     cache:
       enabled: false
